@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+  }
+
+.box {
+  margin-top: 7rem;
+}
+
+table{
+    width: 100%;
+    border-radius: 15px;
+    /* border-collapse: collapse; */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+th {
+    background-color: #3498db;
+    color: #fff;
+  }
